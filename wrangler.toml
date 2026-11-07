@@ -1,0 +1,12 @@
+name = "jianmian-resume"
+pages_build_output_dir = "."
+compatibility_date = "2024-09-23"
+
+# Pages Function 的 KV 绑定(免费额度统计)
+[[kv_namespaces]]
+binding = "QUOTA"
+id = "1a2c29978b714a1a8cc3dcf04d85bfff"
+
+# OWNER_KEY 是密钥,不要写在这里。用以下命令设置(仅需一次):
+#   wrangler pages secret put OWNER_KEY --project-name jianmian-resume
+# 或直接在 Cloudflare Pages 控制台 → 设置 → 环境变量 里添加 OWNER_KEY

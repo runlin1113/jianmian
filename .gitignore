@@ -1,0 +1,19 @@
+# 依赖与构建缓存
+node_modules/
+.wrangler/
+
+# 编辑器 / 工具配置
+.idea/
+.workbuddy/
+
+# 本地临时文件
+_check.js
+_extract.cjs
+_worker.mjs
+*.log
+
+# 非开源产物
+*.pdf
+
+# 可选首页示例图（放入同目录即可显示，缺失时自动降级）
+# 简历模板.jpg
